@@ -1,0 +1,26 @@
+*{
+  margin:0px;
+}
+body{
+  background-color:@mainColor;
+  color:@mainFont;
+  div>div{
+    display: inline-block;
+    margin-left:7%;
+    margin-right:7%;
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+  div>div:nth-child(1){
+    .box(red,100px);
+  }
+  div>div:nth-child(2){
+    .box(blue,200px);
+  }
+  div>div:nth-child(3){
+    .box(green,250px);
+  }
+  div>div:nth-child(4){
+    .box(purple,50px);
+  }
+}
